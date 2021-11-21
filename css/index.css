@@ -1,0 +1,56 @@
+*{
+    font-family: "Roboto";
+    box-sizing: border-box;
+    border: none;
+}
+
+h1{
+    font-size: 120px;
+}
+
+.form{
+    font-size: 30px;
+}
+
+.grid {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 38rem);
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+input{
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+    width: 250px;
+    height: 30px;
+}
+
+#username, #password{
+    padding-left: 3%;
+}
+
+#password{
+    margin-top: 15px;
+}
+
+#register, #login{
+    font-family: "Roboto Medium";
+}
+
+#login{
+    margin-top: 5%;
+    color: white;
+    background-color: #06A5E9;
+}
+
+#register{
+    color: white;
+    background-color: black;
+}
+
+
