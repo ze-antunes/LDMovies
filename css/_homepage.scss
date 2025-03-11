@@ -1,0 +1,76 @@
+.homepage {
+
+    /* TÍTULO FILMES + LISTAGEM */
+
+    &-list {
+        margin-top: 80px;
+        margin-left: 78%;
+        position: absolute;
+    }
+
+    &-títuloFilmes{
+        margin-top: 80px;
+        margin-left: 18%;
+        position: absolute;
+    }
+
+    /* ADMIN */
+
+    .Admin {
+        margin-left: 15%;
+        .btn {
+            display: inline-block;
+            margin: 30px;
+
+            button {
+                width: 200px;
+                height: 100px;
+                font-size: 50px;
+                text-align: center;
+                background-color: white;
+                box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+
+                &:hover {
+                    background-color: rgb(226, 226, 226);
+                }
+            }
+        }
+    }
+
+    /* MAIN */
+
+    &-grid{
+        margin-left: 15%;
+        margin-top: 150px;
+        grid-template-columns: repeat(auto-fit, 15rem);
+        width: 80%;
+        display: grid;
+
+        &-container {
+            position: relative;
+
+            /* CARDS */
+
+            .card{
+                width: 90%;
+
+                img{
+                    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+                    margin-top: 30px;
+                }
+        
+                &-information {
+                    
+                    h3, h4, h5{
+                        margin-bottom: 0;
+                        margin-top: 5px;
+                    }
+            
+                    h5, h4{
+                        font-family: "Roboto Light";
+                    }
+                }
+            }
+        }
+    }
+}

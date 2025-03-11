@@ -1,0 +1,46 @@
+.container-information{
+    width: 20%;
+    display: inline;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 100px;
+    
+}
+
+div:nth-child(2) > img{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+div:nth-child(3) > h2{
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+div:nth-child(2) > div > h4{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    font-family: 'Roboto Light', sans-serif;
+    margin-bottom: 0;
+}
+
+div:nth-child(2) > div > h3{
+    margin-top: 5px;
+}
+
+.purchaseForm{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+input{
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.finalizar{
+    text-align: center;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    font-family: 'Roboto Medium', sans-serif;
+    background-color: $primaryBlue;
+    color: white;
+}

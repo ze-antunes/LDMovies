@@ -1,0 +1,497 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  text-align: left;
+}
+
+input {
+  -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+  width: 250px;
+  height: 30px;
+}
+
+.BtnsGerais {
+  background-color: #06A5E9;
+  color: white;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.BtnsGerais:hover {
+  background-color: #048dc8;
+}
+
+/* HEADER */
+.horizontal_bar {
+  top: 20px;
+}
+
+.horizontal_bar .logo {
+  text-decoration: none;
+  font-family: "Roboto Medium", sans-serif;
+  color: black;
+  font-size: 25px;
+  margin-left: 3%;
+}
+
+.horizontal_bar .options {
+  top: 2%;
+  right: 30px;
+  position: absolute;
+}
+
+.horizontal_bar .notification {
+  top: 2%;
+  position: absolute;
+  right: 80px;
+}
+
+.horizontal_bar .barra_de_pesquisa {
+  position: absolute;
+  left: 37%;
+  top: 2%;
+}
+
+.horizontal_bar .barra_de_pesquisa input {
+  -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+  width: 250px;
+  height: 30px;
+}
+
+.horizontal_bar .lupa {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+}
+
+.horizontal_bar .menu {
+  margin-left: 30px;
+}
+
+.horizontal_bar .cover {
+  margin-top: 3%;
+}
+
+.homepage-list {
+  margin-top: 80px;
+  margin-left: 78%;
+  position: absolute;
+}
+
+.homepage-títuloFilmes {
+  margin-top: 80px;
+  margin-left: 18%;
+  position: absolute;
+}
+
+.homepage .Admin {
+  margin-left: 15%;
+}
+
+.homepage .Admin .btn {
+  display: inline-block;
+  margin: 30px;
+}
+
+.homepage .Admin .btn button {
+  width: 200px;
+  height: 100px;
+  font-size: 50px;
+  text-align: center;
+  background-color: white;
+  -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.homepage .Admin .btn button:hover {
+  background-color: #e2e2e2;
+}
+
+.homepage-grid {
+  margin-left: 15%;
+  margin-top: 150px;
+  -ms-grid-columns: (15rem)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 15rem);
+  width: 80%;
+  display: -ms-grid;
+  display: grid;
+}
+
+.homepage-grid-container {
+  position: relative;
+  /* CARDS */
+}
+
+.homepage-grid-container .card {
+  width: 90%;
+}
+
+.homepage-grid-container .card img {
+  -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+  margin-top: 30px;
+}
+
+.homepage-grid-container .card-information h3, .homepage-grid-container .card-information h4, .homepage-grid-container .card-information h5 {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.homepage-grid-container .card-information h5, .homepage-grid-container .card-information h4 {
+  font-family: "Roboto Light";
+}
+
+.container-information {
+  width: 20%;
+  display: inline;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+div:nth-child(2) > img {
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+div:nth-child(3) > h2 {
+  margin-left: 200px;
+  margin-top: 80px;
+}
+
+div:nth-child(2) > div > h4 {
+  font-family: 'Roboto Light', sans-serif;
+  margin-bottom: 0;
+}
+
+div:nth-child(2) > div > h3 {
+  margin-top: 5px;
+}
+
+.purchaseForm {
+  margin-top: 30px;
+  margin-left: 200px;
+}
+
+input {
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.finalizar {
+  text-align: center;
+  font-family: 'Roboto Medium', sans-serif;
+  background-color: #06A5E9;
+  color: white;
+}
+
+.perfil-BemVindo, .perfil-image {
+  display: inline-block;
+  margin-top: 150px;
+  margin-left: 280px;
+}
+
+.perfil-BemVindo {
+  margin-left: 20px;
+  height: 100px;
+}
+
+.perfil-saldo {
+  margin-left: 280px;
+  font-family: "Roboto Light";
+}
+
+.perfil-transferências {
+  margin-left: 280px;
+  margin-top: 80px;
+}
+
+.perfil-grid {
+  margin-left: 18.5%;
+  margin-top: 50px;
+  -ms-grid-columns: (150px)(5);
+      grid-template-columns: repeat(5, 150px);
+  width: 60%;
+  display: -ms-grid;
+  display: grid;
+}
+
+.perfil-grid-container {
+  position: relative;
+  /* CARDS */
+}
+
+.perfil-grid-container h4 {
+  margin-bottom: 10px;
+}
+
+.perfil-grid-container p {
+  margin-top: 5px;
+}
+
+.perfil .preço-valor {
+  color: red;
+}
+
+.perfil .montante-valor {
+  color: green;
+}
+
+.perfil .perfil-definiçoes {
+  margin-top: 80px;
+  margin-left: 280px;
+}
+
+.perfil .perfil-definiçoes p {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.perfil .perfil-filmes {
+  margin-top: 80px;
+  margin-left: 280px;
+}
+
+.perfil .perfil-filmes img {
+  margin-left: 10px;
+}
+
+.filme-grid {
+  margin-left: 15%;
+  margin-top: 150px;
+  width: 80%;
+  display: -ms-grid;
+  display: grid;
+}
+
+.filme-grid .container {
+  display: block;
+  position: relative;
+}
+
+.filme-grid .container .img-grande {
+  width: 100%;
+  height: auto;
+}
+
+.filme-grid .container-form .bloco {
+  -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.filme-grid .container .coment {
+  width: 100%;
+  height: auto;
+  background-color: pink;
+  margin-top: 20px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.optionsnav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.optionsnav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.optionsnav a:hover {
+  color: #f1f1f1;
+}
+
+.optionsnav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: black;
+}
+
+/* Add styles to the form container */
+.form-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=number], .form-container input[type=button]:focus {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 10px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=number]:focus, .form-container input[type=button]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btnForm {
+  background-color: #06A5E9;
+  color: white;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btnForm:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.login-grid {
+  margin-top: 10%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (38rem)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 38rem);
+  grid-gap: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-container {
+  position: relative;
+}
+
+.login-container h1 {
+  font-size: 120px;
+}
+
+.login-container .form {
+  font-size: 30px;
+}
+
+.login-container input {
+  -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+  width: 250px;
+  height: 30px;
+}
+
+.login #username, .login #password {
+  padding-left: 3%;
+}
+
+.login #password {
+  margin-top: 15px;
+}
+
+.login .btnRegister, .login .btnLogin {
+  font-family: "Roboto Medium", sans-serif;
+}
+
+.login .btnLogin {
+  margin-top: 5%;
+  color: white;
+  background-color: #06A5E9;
+  width: 250px;
+  height: 30px;
+}
+
+.login .btnRegister {
+  color: white;
+  background-color: black;
+  width: 250px;
+  height: 30px;
+}
+
+.login .error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,67 @@
+.login {
+    &-grid {
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 38rem);
+        grid-gap: 50px;
+        justify-content: center;
+    }
+
+    &-container {
+        position: relative;
+
+        h1{
+            font-size: 120px;
+        }
+    
+        .form{
+            font-size: 30px;
+        }
+
+        input{
+            box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+            width: 250px;
+            height: 30px;
+        }
+            
+    }
+    
+        #username, #password{
+            padding-left: 3%;
+        }
+    
+        #password{
+            margin-top: 15px;
+        }
+    
+        .btnRegister, .btnLogin{
+            font-family: "Roboto Medium", sans-serif;
+        }
+    
+        .btnLogin{
+            margin-top: 5%;
+            color: white;
+            background-color: #06A5E9;
+            width: 250px;
+            height: 30px;
+        }
+    
+        .btnRegister{
+            color: white;
+            background-color: black;
+            width: 250px;
+            height: 30px;
+        }
+    
+
+    .error {
+        width: 92%; 
+        margin: 0px auto; 
+        padding: 10px; 
+        border: 1px solid #a94442; 
+        color: #a94442; 
+        background: #f2dede; 
+        border-radius: 5px; 
+        text-align: left;
+    }
+}

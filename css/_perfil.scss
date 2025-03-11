@@ -1,0 +1,71 @@
+.perfil{
+
+    &-BemVindo, &-image{
+        display: inline-block;
+        margin-top: 150px;
+        margin-left: 280px;
+    }
+
+    &-BemVindo{
+        margin-left: 20px;
+        height: 100px;
+    }
+
+    &-saldo{
+        margin-left: 280px;
+        font-family: "Roboto Light";
+    }
+
+    &-transferências{
+        margin-left: 280px;
+        margin-top: 80px;
+    }
+    
+    &-grid{
+        margin-left: 18.5%;
+        margin-top: 50px;
+        grid-template-columns: repeat(5, 150px);
+        width: 60%;
+        display: grid;
+
+        &-container {
+            position: relative;
+
+                /* CARDS */
+                h4{
+                    margin-bottom: 10px;
+                }
+
+                p{
+                    margin-top: 5px;
+                }
+        }
+    }
+
+    .preço-valor{
+        color: red;
+    }
+
+    .montante-valor{
+        color: green;
+    }
+
+    .perfil-definiçoes{
+        margin-top: 80px;
+        margin-left: 280px;
+
+        p{
+            margin-bottom: 0;
+            margin-top: 10px;
+        }
+    }
+
+    .perfil-filmes{
+        margin-top: 80px;
+        margin-left: 280px;
+
+        img{
+            margin-left: 10px;
+        }
+    }
+}

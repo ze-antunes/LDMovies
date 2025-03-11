@@ -1,0 +1,35 @@
+@import 'config';
+
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    border: none;
+    text-align: left;
+}
+
+input{
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+    width: 250px;
+    height: 30px;
+}
+
+.BtnsGerais { 
+    background-color: $primaryBlue;
+    color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+
+    &:hover {
+        background-color: #048dc8;
+    }
+}
+
+@import 'horizontalBar';
+@import 'homepage';
+@import 'compra';
+@import 'perfil';
+@import 'filme';
+@import 'menu';
+@import 'options';
+@import 'adminhomefilmes';
+@import 'login';
